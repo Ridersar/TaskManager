@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="btn">Добавить заметку</string>
+    <string name="btn_create">Создать элемент</string>
+    <string name="input_text">Введите название</string>
+    <string name="input_description">Введите описание</string>
+    <string name="text_save_item">Сохранить заметку</string>
+    <string name="text_done_item">Выполнить</string>
+    <string name="text_back">Назад</string>
+    <string name="text_tab_all">Все</string>
+    <string name="text_tab_all_done">Выполненные</string>
+    <string name="text_tab_all_undone">Невыполненные</string>
+    <string name="text_create_item_successful">Заметка успешно создана</string>
+    <string name="text_done_item_successful">Задача выполнена</string>
+</resources>

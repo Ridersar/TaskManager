@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginTop="@dimen/dimen_8"
+        android:layout_marginEnd="@dimen/dimen_12"
+        android:text="@string/text_back" />
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@color/pink_2"/>
+
+    <TextView
+        android:id="@+id/descriptionView"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/pink_2"
+        android:text="Description"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/dateTimeView"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/pink_2"
+        android:text="DateTime"
+        android:textSize="14sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:text="@string/text_done_item" />
+
+</LinearLayout>

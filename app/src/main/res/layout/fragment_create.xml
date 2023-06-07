@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:text="@string/text_back" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16"
+        android:hint="@string/input_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/et_description_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16"
+        android:hint="@string/input_description">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_description"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:inputType="text" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:layout_marginStart="@dimen/dimen_16"
+        android:layout_marginEnd="@dimen/dimen_16"
+        android:text="@string/text_save_item" />
+
+</LinearLayout>
